@@ -1,0 +1,21 @@
+---
+    - name: Ensure audit package is installed
+      ansible.builtin.dnf:
+        name: audit
+        state: present
+
+    - name: Ensure auditd service is up and running
+      ansible.builtin.service:
+        name: auditd
+        state: started
+        enabled: yes
+
+    - name: Add a basic audit config
+      ansible.builtin.copy:
+        src: audit.rules
+        dest: /etc/audit/rules.d/audit.rules
+        owner: root
+        group: root
+        mode: 0600
+      notify: reboot_host
+

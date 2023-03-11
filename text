@@ -1,0 +1,14 @@
+ok	remove vagrant user
+ok 	hardening
+		systemctl status firewalld
+		selinux ?
+install fail2ban
+ntp time einstellen
+install .bashrc
+install .bash_profile
+mkdir script
+mkdir script/output
+update code alma
+upgrade code alma
+automaticly update code setting
+

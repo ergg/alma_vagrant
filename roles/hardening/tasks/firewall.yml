@@ -1,0 +1,29 @@
+# https://www.redhat.com/sysadmin/ansible-linux-server-security
+---
+    - name: Ensure firewall package is installed
+      ansible.builtin.dnf:
+        name: firewalld
+        state: present
+
+    - name: Ensure firewall service is up and running
+      ansible.builtin.service:
+        name: firewalld
+        state: started
+        enabled: yes
+
+    - name: Block non-required services
+      ansible.posix.firewalld:
+        service: "{{ item }}"
+        state: disabled
+        permanent: yes
+        immediate: yes
+      loop:
+        - cockpit
+        - dhcpv6-client
+
+    - name: Enable required services
+      ansible.posix.firewalld:
+        service: "ssh"
+        state: enabled
+        permanent: yes
+        immediate: yes

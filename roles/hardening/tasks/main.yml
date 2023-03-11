@@ -1,0 +1,9 @@
+---
+# tasks file for hardening
+- include_tasks: user.yml
+- include_tasks: firewall.yml
+- include_tasks: selinux.yml
+- include_tasks: kernel.yml
+- include_tasks: network.yml
+- include_tasks: audit.yml
+- include_tasks: software.yml

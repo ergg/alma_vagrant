@@ -1,0 +1,8 @@
+# https://www.redhat.com/sysadmin/ansible-linux-server-security 
+---
+- name: Linux hardening
+  hosts: 'all'
+  gather_facts: yes
+  become: true  
+  roles:
+    - hardening

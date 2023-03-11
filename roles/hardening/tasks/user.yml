@@ -1,0 +1,20 @@
+---
+# - name: Remove the user 'vagrant' # dont doit
+#  ansible.builtin.user:
+#    name: vagrant
+#    state: absent
+#    remove: yes
+
+#- name: "Ab jetzt funktioniert nur noch:"
+#  pause:
+#    seconds: 10
+#    prompt: |
+#      =================================================
+#            
+#            User "vagrant" ist nun gelöscht.
+#            "vagrant ssh" funktioniert nicht mehr.
+#            Ab jetzt muss mit:
+#            "ssh -l automation 127.0.0.1 -p 2222"
+#            eingelogt werden.
+#
+#      ================================================

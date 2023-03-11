@@ -1,0 +1,3 @@
+---
+# handlers file for hardening
+- import_tasks: roles/common/handlers/reboot.yml

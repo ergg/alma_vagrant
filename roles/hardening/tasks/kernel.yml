@@ -1,0 +1,17 @@
+---
+    - name: Harden kernel parameters
+      ansible.posix.sysctl:
+        name: "{{ item.name }}"
+        value: '{{ item.value }}'
+        sysctl_set: yes
+        state: present
+        reload: yes
+        sysctl_file: /etc/sysctl.d/90-kernel.conf
+      loop:
+      - name: kernel.randomize_va_space
+        value: 2
+      - name: kernel.dmesg_restrict
+        value: 1
+      - name: kernel.perf_event_paranoid
+        value: 2
+

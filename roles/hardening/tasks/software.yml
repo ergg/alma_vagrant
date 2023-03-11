@@ -1,0 +1,30 @@
+---
+#- name: handler
+#  import_role:
+#    name: audit.yml
+#
+- name: "Enable AlmaLinux PowerTools repo"
+  community.general.ini_file:
+    #    path:       /etc/yum.repos.d/almalinux-powertools.repo
+    path:       /etc/yum.repos.d/almalinux-crb.repo
+    section:    crb
+    option:     enabled
+    value:      1
+    create:     no
+  when: ansible_distribution == "AlmaLinux"
+
+- name: Install software
+  package:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - epel-release
+    - fail2ban
+    - nmon
+    - vim
+  notify: reboot_host 
+
+- name: update software
+  package:
+    name: '*'
+    state: latest
