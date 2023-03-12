@@ -6,9 +6,13 @@
 Welcome to alma_vagrant_ansible's documentation!
 ================================================
 
+Contents
+--------
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+
+   usage
+   api
    mytext
 
 
