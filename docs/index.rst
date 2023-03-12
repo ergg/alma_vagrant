@@ -10,9 +10,6 @@ Contents
 --------
 
 .. toctree::
-
-   usage
-   api
    mytext
 
 
