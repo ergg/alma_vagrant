@@ -27,7 +27,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'alabaster'
 html_static_path = ['_static']
 
-import sys
-import os
-sys.path.insert(0, os.path.abspath('../')) # path relative to conf.py
+#import sys
+#import os
+#sys.path.insert(0, os.path.abspath('../')) # path relative to conf.py
 # sys.path.insert(0, os.path.abspath('/home/erich/script/vagrant_root/alma_linux/playbook/' )) # path relative to conf.py
