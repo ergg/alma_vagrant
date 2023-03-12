@@ -9,6 +9,9 @@ Welcome to alma_vagrant_ansible's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   mytext
+   usage
+   api
 
 
 
@@ -18,4 +21,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-* :ref:`mytext`
+
