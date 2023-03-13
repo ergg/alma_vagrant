@@ -19,17 +19,17 @@ asdfasdfasdfasdfasdfasdfasdf
 asdfasdfasdfasdfasdfasdfasdfasdfasdf
 asdfasdfasdfasdfasdfasdfasdf
 
-.. _reStructuredText: https://docutils.sourceforge.io/rst.html
+.._reStructuredText: https://docutils.sourceforge.io/rst.html
 
 Zweiter Versuch:
-__ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
+__https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
 Dritter Versuch:
-.. _Python: https://www.python.org
+.._Python: https://www.python.org
 
-.. _example: https:www.ibm.com
+.._example: https://www.ibm.com
 
 The "_example" target above points to this paragraph.
 
 See `the web site of my favorite programming language`__.
-.. __: https://www.python.org
+..__: https://www.python.org
