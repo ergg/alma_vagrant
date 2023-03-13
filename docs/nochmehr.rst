@@ -27,6 +27,9 @@ __ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 Dritter Versuch:
 .. _Python: https://www.python.org
 
-.. _example:
+.. _example: https:www.ibm.com
 
 The "_example" target above points to this paragraph.
+
+See `the web site of my favorite programming language`__.
+.. __: https://www.python.org
