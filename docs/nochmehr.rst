@@ -32,8 +32,8 @@ Dritter Versuch:
 The "_example" target above points to this paragraph.
 
 See `the web site of my favorite programming language`__.
-..__: https://www.python.org
+.. __: https://www.python.org
 
 See `RFC 2822`__ for information about email headers.
 
-__ http://www.faqs.org/rfcs/rfc2822.html
+.. __ http://www.faqs.org/rfcs/rfc2822.html
