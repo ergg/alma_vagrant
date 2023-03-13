@@ -19,10 +19,10 @@ asdfasdfasdfasdfasdfasdfasdf
 asdfasdfasdfasdfasdfasdfasdfasdfasdf
 asdfasdfasdfasdfasdfasdfasdf
 
-.._reStructuredText: https://docutils.sourceforge.io/rst.html
+.. _reStructuredText: https://docutils.sourceforge.io/rst.html
 
 Zweiter Versuch:
-__https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
+__ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
 Dritter Versuch:
 .._Python: https://www.python.org
