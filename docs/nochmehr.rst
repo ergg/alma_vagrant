@@ -24,3 +24,9 @@ asdfasdfasdfasdfasdfasdfasdf
 Zweiter Versuch:
 __ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
+Dritter Versuch:
+.. _Python: https://www.python.org
+
+.. _example:
+
+The "_example" target above points to this paragraph.
