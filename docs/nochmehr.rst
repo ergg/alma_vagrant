@@ -8,7 +8,7 @@ Sag ihhh
 Subdirectroy
 ------------
 
-.. _Hier ist ein Linkk zum klicken
+.. _Hier ist ein Linkk zum klicken:
 
 Hier bin ich nun
 ----------------
