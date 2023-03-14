@@ -22,7 +22,7 @@ asdfasdfasdfasdfasdfasdfasdf
 .. _reStructuredText: https://docutils.sourceforge.io/rst.html
 
 Zweiter Versuch:
-__ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
+.. __ https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
 Dritter Versuch:
 .. _Python: https://www.python.org
