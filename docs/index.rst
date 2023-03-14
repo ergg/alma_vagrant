@@ -12,4 +12,3 @@ Contents
 .. toctree::
    mytext
    nochmehr
-   

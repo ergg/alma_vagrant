@@ -1,15 +1,15 @@
-Das it ein Header
-================
+alma_vagrant_ansible
+====================
 
 Noch mehr wann immer es geht
 
-Usage
-=====
+Installation
+============
 
 .. _installation:
 
-Installation
-------------
+Usage
+-----
 
 To use Lumache, first install it using pip:
 
